@@ -1,0 +1,174 @@
+:root {
+  --bg-body: #f6f6f6;
+  --bg-light: #ffffff;
+  --bg-dark: #151515;
+  --text-main: #111111;
+  --text-muted: #6b6b6b;
+  --accent: #d62828;
+  --accent-dark: #b22222;
+  --accent-soft: #ffe0d9;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  color: var(--text-main);
+  background-color: var(--bg-body);
+}
+
+/* General */
+
+.app {
+  background-color: var(--bg-body);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: var(--bg-dark) !important;
+}
+
+.navbar-brand-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.brand-mark {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  background: linear-gradient(135deg, #ffb347, var(--accent));
+  box-shadow: 0 0 10px rgba(214, 40, 40, 0.55);
+}
+
+.navbar-brand span:last-child {
+  letter-spacing: 0.08em;
+}
+
+.nav-link.active {
+  font-weight: 600;
+}
+
+/* Hero */
+
+.hero-section {
+  background: radial-gradient(
+    circle at 10% 20%,
+    #ffffff 0,
+    #f3f3f3 45%,
+    #efefef 100%
+  );
+}
+
+.hero-img {
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+  object-fit: cover;
+}
+
+/* Cards / secciones */
+
+.card {
+  border-radius: 1rem;
+}
+
+.section-title {
+  font-weight: 600;
+}
+
+/* About */
+
+.about-hero {
+  background: linear-gradient(135deg, #151515, #2a2a2a);
+  border-radius: 24px;
+  color: #ffffff;
+}
+
+.about-badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.about-grid-card {
+  background-color: var(--bg-light);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+}
+
+/* Contacto */
+
+.contact-section {
+  background: radial-gradient(circle at top, #ffe8e0 0, #f6f6f6 45%, #f6f6f6 100%);
+}
+
+.contact-card {
+  background-color: var(--bg-light);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.09);
+}
+
+.contact-side {
+  border-radius: 1.3rem;
+  background: linear-gradient(145deg, var(--accent), var(--accent-dark));
+  color: #ffffff;
+  padding: 1.5rem;
+}
+
+.contact-pill {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contact-highlight {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.75rem;
+  font-size: 0.75rem;
+}
+
+/* Botones */
+
+.btn-danger {
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn-danger:hover,
+.btn-danger:focus {
+  background-color: var(--accent-dark);
+  border-color: var(--accent-dark);
+}
+
+/* Hero cards */
+
+.hero-step-card {
+  border: none;
+  background-color: var(--bg-light);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+/* Utilidades */
+
+.text-muted {
+  color: var(--text-muted) !important;
+}
