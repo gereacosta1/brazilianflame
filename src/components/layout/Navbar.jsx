@@ -8,10 +8,15 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div className="container">
         {/* LOGO */}
-        <Link className="navbar-brand fw-bold text-uppercase" to="/">
+        <Link className="navbar-brand" to="/">
           <span className="navbar-brand-logo">
-            <span className="brand-mark" />
-            <span>Brazilian Flame</span>
+            <span className="brand-mark">
+              <span className="brand-mark-inner" />
+            </span>
+            <span className="brand-text">
+              <span className="brand-text-top">BRAZILIAN</span>
+              <span className="brand-text-bottom">FLAME</span>
+            </span>
           </span>
         </Link>
 
@@ -30,7 +35,7 @@ export default function Navbar() {
 
         {/* LINKS */}
         <div className="collapse navbar-collapse" id="mainNavbar">
-          <ul className="navbar-nav ms-md-4 me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-md-5 me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink end className="nav-link" to="/">
                 Inicio
@@ -56,11 +61,12 @@ export default function Navbar() {
           {/* BOTÓN CARRITO */}
           <Link
             to="/carrito"
-            className="btn btn-outline-light btn-sm navbar-cart-btn d-flex align-items-center gap-2"
+            className="btn navbar-cart-btn d-flex align-items-center gap-2"
           >
-            <span>🛒 Carrito</span>
+            <span className="navbar-cart-icon">🛒</span>
+            <span className="navbar-cart-label">Carrito</span>
             {totalItems > 0 && (
-              <span className="badge bg-danger rounded-pill">
+              <span className="badge navbar-cart-badge rounded-pill">
                 {totalItems}
               </span>
             )}
