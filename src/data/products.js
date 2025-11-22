@@ -1,10 +1,10 @@
 const products = [
   {
     id: 1,
-    name: "Parrilla Rotisserie Pro",
-    price: 349.99,
-    category: "parrillas",
-    image: "https://via.placeholder.com/400x300?text=Rotisserie+Pro",
+    name: "Brazilian Flame Barbecue Skewer - Single",
+    price: 39.99,
+    category: "accesorios",
+    image: "/Brazilian-Flam-Barbecue-Skewer-Single.png",
     description:
       "Rotisserie moderna de acero inoxidable, ideal para balcones y terrazas. Incluye motor silencioso.",
     details: [
@@ -16,10 +16,10 @@ const products = [
   },
   {
     id: 2,
-    name: "Parrilla Compact Balcony",
-    price: 279.99,
-    category: "parrillas",
-    image: "https://via.placeholder.com/400x300?text=Compact+Balcony",
+    name: "Brazilian Flame Barbecue Skewer - Triple",
+    price: 24.99,
+    category: "accesorios",
+    image: "/Brazilian-Flame-Barbecue-Skewer-Triple.png",
     description:
       "Diseño minimalista y compacto, pensada para espacios reducidos sin perder potencia.",
     details: [
@@ -31,10 +31,10 @@ const products = [
   },
   {
     id: 3,
-    name: "Parrilla Family XL",
-    price: 399.99,
-    category: "parrillas",
-    image: "https://via.placeholder.com/400x300?text=Family+XL",
+    name: "Brazilian Flame Chef's Knife - Picanha",
+    price: 139.99,
+    category: "cuchillos",
+    image: "/Brazilian-Flame-Chef's-Knife-Picanha.png",
     description:
       "Modelo grande para familias y reuniones, con doble nivel de cocción.",
     details: [
@@ -46,10 +46,10 @@ const products = [
   },
   {
     id: 4,
-    name: "Kit de Cuchillos Premium",
-    price: 129.99,
-    category: "cuchillos",
-    image: "https://via.placeholder.com/400x300?text=Cuchillos+Premium",
+    name: "Brazilian Flame Flat Rotisserie Grill Basket - Vegetables",
+    price: 49.99,
+    category: "accesorios",
+    image: "/Brazilian-Flame-Flat-Rotisserie-Grill-Basket-Vegetables.png",
     description:
       "Set de cuchillos profesionales para cortes perfectos de carne.",
     details: [
@@ -60,10 +60,10 @@ const products = [
   },
   {
     id: 5,
-    name: "Cuchillo Chef Churrasco",
-    price: 59.99,
-    category: "cuchillos",
-    image: "https://via.placeholder.com/400x300?text=Cuchillo+Chef",
+    name: "Brazilian Flame Outdoor Grill Cart",
+    price: 119.00,
+    category: "accesorios",
+    image: "/Brazilian-Flame-Outdoor-Grill-Cart.png",
     description:
       "Cuchillo chef pensado especialmente para cortes de churrasco.",
     details: [
@@ -74,10 +74,10 @@ const products = [
   },
   {
     id: 6,
-    name: "Set Pinzas + Espátula Acero",
-    price: 39.99,
-    category: "accesorios",
-    image: "https://via.placeholder.com/400x300?text=Pinzas+Espatula",
+    name: "FOGO SERIES Rotisserie Gas Grill w/5-Skewers by Brazilian Flame®",
+    price: 549.00,
+    category: "parrillas",
+    image: "/FOGO-SERIES-Rotisserie-Gas-Grill-w5-Skewers.png",
     description:
       "Accesorios esenciales para manipular la carne con precisión.",
     details: [
@@ -88,10 +88,10 @@ const products = [
   },
   {
     id: 7,
-    name: "Kit Termómetro + Guantes",
-    price: 44.99,
-    category: "accesorios",
-    image: "https://via.placeholder.com/400x300?text=Termometro+Guantes",
+    name: "VOLTA Series Rotisserie Grill Oven by Brazilian Flame®",
+    price: 259.00,
+    category: "parrillas",
+    image: "/VOLTA-Series-Rotisserie-Grill-Oven.png",
     description:
       "Controlá el punto exacto de cocción sin quemarte las manos.",
     details: [
@@ -102,10 +102,10 @@ const products = [
   },
   {
     id: 8,
-    name: "Pack Espadas para Churrasco",
-    price: 69.99,
-    category: "accesorios",
-    image: "https://via.placeholder.com/400x300?text=Espadas+Churrasco",
+    name: "Brazilian Flame Chef's Knife - Picanha Set with Sharpener",
+    price: 209.99,
+    category: "cuchillos",
+    image: "/Brazilian-Flame-Chef's-Knife-Picanha-Set-with-Sharpener.png",
     description:
       "Juego de espadas de acero para carne y vegetales, compatible con rotisserie.",
     details: [

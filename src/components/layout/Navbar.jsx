@@ -5,8 +5,9 @@ export default function Navbar() {
   const { totalItems } = useCart();
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark shadow-sm">
+    <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div className="container">
+        {/* LOGO */}
         <Link className="navbar-brand fw-bold text-uppercase" to="/">
           <span className="navbar-brand-logo">
             <span className="brand-mark" />
@@ -14,8 +15,9 @@ export default function Navbar() {
           </span>
         </Link>
 
+        {/* TOGGLER MOBILE */}
         <button
-          className="navbar-toggler"
+          className="navbar-toggler border-0"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#mainNavbar"
@@ -26,8 +28,9 @@ export default function Navbar() {
           <span className="navbar-toggler-icon" />
         </button>
 
+        {/* LINKS */}
         <div className="collapse navbar-collapse" id="mainNavbar">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-md-4 me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink end className="nav-link" to="/">
                 Inicio
@@ -50,9 +53,10 @@ export default function Navbar() {
             </li>
           </ul>
 
+          {/* BOTÓN CARRITO */}
           <Link
             to="/carrito"
-            className="btn btn-outline-light btn-sm d-flex align-items-center gap-2"
+            className="btn btn-outline-light btn-sm navbar-cart-btn d-flex align-items-center gap-2"
           >
             <span>🛒 Carrito</span>
             {totalItems > 0 && (

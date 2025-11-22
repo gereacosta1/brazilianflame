@@ -37,7 +37,7 @@ export default function Home() {
 
           <div className="w-100 w-md-50">
             <img
-              src="/images/hero-grill.jpg"
+              src="/hero-grill.jpg"
               alt="Personas disfrutando de una parrilla Brazilian Flame"
               className="img-fluid hero-img"
             />
